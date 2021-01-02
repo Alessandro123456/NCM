@@ -1,0 +1,13 @@
+{
+  "realm": "NCM",
+  "auth-server-url": "http://localhost:8081/auth/",
+  "ssl-required": "external",
+  "resource": "react_app",
+  "verify-token-audience": true,
+  "credentials": {
+    "secret": "f4c3990f-eb6b-49fa-81e0-5607e43e3718"
+  },
+  "use-resource-role-mappings": true,
+  "confidential-port": 0,
+  "policy-enforcer": {}
+}

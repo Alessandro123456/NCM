@@ -1,0 +1,40 @@
+<html>
+<body>
+<h1> Buongiorno Utente <%= client%> </h1>
+
+
+<p>Router controllabili</p>
+
+<select id="slcFruits" name="sel" onchange="printValue(this.value)">
+  <p><%
+	for(var i =0 ; i <= list.length - 1 ; i++) {
+%>
+
+  <option value="<%= list[i] %>" ><%= list[i] %>
+  
+ <% } %> </p>
+</select>
+
+<script>
+function printValue(myVal) {
+    
+	document.getElementById("selectedValue").innerHTML = "Router selezionato = " + myVal;
+	document.getElementById("ciao1").value = myVal;
+}
+</script>
+
+<form action="/client1" method="POST">
+
+        <label>Command</label>
+        <input type="text" name="command">
+		
+		<input type="hidden" name="device" id="ciao1" > 
+		
+		<input type="submit" name="submit">
+
+
+</form>
+
+<div id="selectedValue"> Selezione Router Please</div>
+<body>
+<html>

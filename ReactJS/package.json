@@ -1,0 +1,52 @@
+{
+  "name": "app_ssh",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
+    "bootstrap-icons": "^1.0.0-alpha5",
+    "keycloak-js": "^4.0.0-beta.2",
+    "react": "^16.13.1",
+    "react-alert": "^7.0.2",
+    "react-beforeunload": "^2.2.2",
+    "react-bootstrap-table-next": "^4.0.3",
+    "react-bootstrap-table2-paginator": "^2.1.2",
+    "react-data-components": "^1.2.0",
+    "react-dom": "^16.13.1",
+    "react-pagination-table": "^2.0.2",
+    "react-redux": "^7.2.1",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "3.4.1",
+    "reactstrap": "^8.5.1",
+    "redux": "^4.0.5",
+    "rsuite": "^4.8.0",
+    "semantic-ui-react": "^0.88.2",
+    "terminal-in-react": "^4.3.1",
+    "websocket": "^1.0.31"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
